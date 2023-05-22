@@ -2,7 +2,7 @@ package org.example;
 
 import org.example.threads.NombreThread;
 
-public class Main {
+public class EjemploExtenderThread {
     public static void main(String[] args) {
 
         Thread hilo = new NombreThread("John Doe");
