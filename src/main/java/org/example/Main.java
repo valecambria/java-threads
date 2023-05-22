@@ -1,0 +1,13 @@
+package org.example;
+
+import org.example.threads.NombreThread;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Thread hilo = new NombreThread("John Doe");
+        hilo.start();
+        Thread hilo2 = new NombreThread("Maria");
+        hilo2.start();
+    }
+}
